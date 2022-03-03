@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CF6868"
+    android:background="#FFF"
     tools:context=".MainActivity"
     tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
     <LinearLayout
@@ -32,6 +32,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="90dp"
+                        android:scaleType="fitStart"
                         android:src="@drawable/bag" />
 
                     <TextView
@@ -68,6 +69,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="90dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/sunglass" />
 
                     <TextView
@@ -111,6 +113,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="90dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/belt" />
 
                     <TextView
@@ -147,6 +150,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="90dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/ring" />
 
                     <TextView
@@ -190,6 +194,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="90dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/thing" />
 
                     <TextView
@@ -226,6 +231,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="90dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/resource_short" />
 
                     <TextView
